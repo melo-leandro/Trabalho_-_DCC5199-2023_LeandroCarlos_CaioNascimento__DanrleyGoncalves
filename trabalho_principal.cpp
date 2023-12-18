@@ -6,6 +6,7 @@
 
 using namespace std;
 
+//Feito principalmente por Leandro Carlos
 bool verificaHorizontal(char palavra[], char grade[M][M], int m, int p)
 {
     int tamanhoPalavra = strlen(palavra);
@@ -50,7 +51,7 @@ bool verificaHorizontal(char palavra[], char grade[M][M], int m, int p)
     }
     return false;
 }
-
+// Feito principalmente por Leandro Carlos
 bool verificaVertical(char palavra[], char grade[M][M], int m, int p)
 {   
     int tamanhoPalavra = strlen(palavra);
@@ -96,6 +97,7 @@ bool verificaVertical(char palavra[], char grade[M][M], int m, int p)
     return false;
 }
 
+//Feito principalmente por Danrley Gonçalves
 bool verificaDiagonal(char palavra[], char grade[M][M], int m, int p)
 {
     int tamanhoPalavra = strlen(palavra);
@@ -186,6 +188,7 @@ bool verificaDiagonal(char palavra[], char grade[M][M], int m, int p)
     return false;
 }
 
+// Feito por Caio Nascimento
 int main()
 {
     int qtdPalavras, qtdLinhas, qtdColunas;
